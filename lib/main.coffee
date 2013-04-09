@@ -1,4 +1,4 @@
-# # main
+# # Main
 
 exports.messages = require './messages'
-exports.decodedMessages = require './decoded-messages'
+exports.decodedMessages = require './messages-decoded'
