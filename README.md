@@ -10,7 +10,11 @@
 </tr>
 <tr>
 <td>Build Status</td>
-<td><img src='https://secure.travis-ci.org/nordus/cowlamp.png?branch=master' /></td>
+<td>
+<a href='https://travis-ci.org/nordus/cowlamp'>
+<img src='https://secure.travis-ci.org/nordus/cowlamp.png?branch=master' />
+</a>
+</td>
 </tr>
 <tr>
 </table>
