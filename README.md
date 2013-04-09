@@ -2,6 +2,10 @@
 
 <table>
 <tr>
+<td>Build Status</td>
+<td>![status](https://secure.travis-ci.org/nordus/cowlamp.png?branch=master)</td>
+</tr>
+<tr>
 <td>Description</td>
 <td>Send/receive fake CalAmp messages.</td>
 </tr>
@@ -16,7 +20,7 @@ Installation
 
 Install [NodeJS](http://nodejs.org) in your preferred manner, then:
 
-    npm install cowlamp
+    npm install cowlamp -g
 
 Usage
 -----
