@@ -1,0 +1,33 @@
+{
+   "name":"cowlamp",
+   "description":"Nothing here yet",
+   "version":"0.0.1",
+   "homepage":"http://github.com/nordus/cowlamp",
+   "repository":"git://github.com/nordus/cowlamp.git",
+   "author":"Daniel Johnson <contact@danieljohnson.me> (http://danieljohnson.me)",
+   "main":"./index.js",
+   
+   "dependencies":{
+      "coffee-script":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "mocha-phantomjs": "*",
+      "should":"*",
+      "component":"*",
+      "uglify-js":"*",
+      "lidoc": "*"
+   },
+   "scripts":{
+      "test":"./node_modules/.bin/mocha --compilers coffee:coffee-script"
+   },
+   "engines":{
+      "node":">= 0.8.9"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/nordus/cowlamp/raw/master/LICENSE"
+      }
+   ]
+}
