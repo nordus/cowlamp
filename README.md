@@ -1,11 +1,6 @@
 # cowlamp
 
 <table>
-<tr>
-<td>Build Status</td>
-<td><img src='https://secure.travis-ci.org/nordus/cowlamp.png?branch=master' /></td>
-</tr>
-<tr>
 <td>Description</td>
 <td>Send/receive fake CalAmp messages.</td>
 </tr>
@@ -13,6 +8,11 @@
 <td>Node Version</td>
 <td>>= 0.8.9</td>
 </tr>
+<tr>
+<td>Build Status</td>
+<td><img src='https://secure.travis-ci.org/nordus/cowlamp.png?branch=master' /></td>
+</tr>
+<tr>
 </table>
 
 Installation
