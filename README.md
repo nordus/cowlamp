@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>Build Status</td>
-<td>![status](https://secure.travis-ci.org/nordus/cowlamp.png?branch=master)</td>
+<td><img src='https://secure.travis-ci.org/nordus/cowlamp.png?branch=master' /></td>
 </tr>
 <tr>
 <td>Description</td>
