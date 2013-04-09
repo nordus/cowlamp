@@ -23,7 +23,7 @@ docs.deploy: docs
   git init . && \
   git add . && \
   git commit -m "Update documentation"; \
-  git push "https://github.com/nordus/cowlamp" master:gh-pages --force && \
+  git push "git@github.com:nordus/cowlamp.git" master:gh-pages --force && \
   rm -rf .git
 
 clean:

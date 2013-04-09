@@ -1,0 +1,18 @@
+#!/usr/bin/env coffee
+
+argv = require('optimist')
+  .default('message_type', 10)
+  .default('ip', (process.env.IP ? 'localhost'))
+  .default('port', 2013)
+  .argv
+
+path = require('path')
+fs   = require('fs')
+lib  = path.join(path.dirname(fs.realpathSync(__filename)), '../lib')
+
+msg   = require("#{lib}/messages")["#{argv.message_type}"]
+dgram = require 'dgram'
+sock  = dgram.createSocket 'udp4'
+
+sock.send msg, 0, msg.length, argv.port, argv.ip, (err, bytes) ->
+  sock.close()
