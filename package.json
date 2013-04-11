@@ -31,6 +31,6 @@
     }
   ],
   "bin": {
-    "send": "./bin/send"
+    "cowlamp": "./bin/cowlamp"
   }
 }
