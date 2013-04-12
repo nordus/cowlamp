@@ -70,3 +70,15 @@ module.exports =
     updateTime: new Date('Sun Mar 03 2013 19:51:05 GMT-0500 (EST)')                                                                                                               
     msgType: 10                                                                                                                                                       
     mobileId: '4531010353'
+
+  # #### Message type 10 / eventType 26 (vBatt)
+  '10/26':
+    latitude: 33.673709
+    longitude: -111.8883138
+    heading: 0
+    speed: 7.4564520000000005
+    eventCode: 26
+    vBatt: 12.768
+    updateTime: new Date('Mon Mar 25 2013 16:55:19 GMT-0700 (MST)')
+    msgType: 10
+    mobileId: '4531004944'
