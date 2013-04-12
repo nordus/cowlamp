@@ -8,6 +8,17 @@ dgram     = require 'dgram'
 sock      = dgram.createSocket 'udp4'
 messages  = require './messages'
 
+# validate ack was sent from port 2013
+validateAck = (msg, rinfo) ->
+  console.log "received ack from #{rinfo.address}:#{rinfo.port}"
+  console.log msg
+  
+  inboundClient.close()
+
+inboundClient = dgram.createSocket 'udp4', validateAck
+
+inboundClient.bind 2013
+
 # ### cowlamp([options])
 #
 # options:
