@@ -14,6 +14,7 @@ module.exports =
     updateTime: new Date('Sat Jan 12 2013 15:35:13 GMT-0500 (EST)')                                                                                                               
     msgType: 2                                                                                                                                                        
     mobileId: '4531003346'
+    eventCode: 30
 
   # #### Message type 5 / subtype 131
   '5/131':
