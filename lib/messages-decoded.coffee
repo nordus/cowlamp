@@ -3,8 +3,7 @@
 module.exports =
   # #### Message type 2
   '2':
-    timeOfFix: new Date('Sat Jan 12 2013 15:35:13 GMT-0500 (EST)')                                                                                                                
-    latitude: 33.5949818                                                                                                                                              
+    latitude: 33.5949818
     longitude: -112.2298038                                                                                                                                           
     altitude: 1086.4829744                                                                                                                                            
     speed: 0                                                                                                                                                          
@@ -18,8 +17,7 @@ module.exports =
 
   # #### Message type 5 / subtype 131
   '5/131':
-    timeOfFix: new Date('Wed Dec 31 1969 19:00:00 GMT-0500 (EST)')                                                                                                                
-    latitude: 0                                                                                                                                                       
+    latitude: 0
     longitude: 0                                                                                                                                                      
     altitude: 0                                                                                                                                                      
     speed: 0                                                                                                                                                        
@@ -38,8 +36,7 @@ module.exports =
 
   # #### Message type 5 / subtype 132
   '5/132':
-    timeOfFix: new Date('Tue Sep 06 2011 19:13:30 GMT-0400 (EDT)')                                                                                                                
-    latitude: 33.1311913                                                                                                                                              
+    latitude: 33.1311913
     longitude: -117.2789211                                                                                                                                          
     altitude: 142.9133904                                                                                                                                             
     speed: 0.11184681460272011                                                                                                                                        
