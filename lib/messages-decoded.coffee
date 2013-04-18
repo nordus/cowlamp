@@ -11,7 +11,7 @@ module.exports =
     satellites: 8                                                                                                                                                     
     rssi: -95                                                                                                                                                         
     hdop: 0.8                                                                                                                                                         
-    updateTime: new Date('Sat Jan 12 2013 15:35:13 GMT-0500 (EST)')                                                                                                               
+    updateTime: 1358022913000
     msgType: 2                                                                                                                                                        
     mobileId: '4531003346'
     eventCode: 30
@@ -31,7 +31,7 @@ module.exports =
     proto: '1'                                                                                                                                                        
     params: '0,1,4,7,8,11,12'                                                                                                                                         
     indctrs: '0(000000000011),1(11111111111)\u0000'                                                                                                                   
-    updateTime: new Date('Wed Dec 31 1969 19:00:51 GMT-0500 (EST)')                                                                                                               
+    updateTime: 51000
     msgType: 5                                                                                                                                                        
     mobileId: '4531001082'
 
@@ -54,7 +54,7 @@ module.exports =
     dtcCode5: 'B0200'                                                                                                                                                 
     dtcCode6: 'U0100'                                                                                                                                                 
     dtcCode7: 'P0101'                                                                                                                                                 
-    updateTime: new Date('Tue Sep 06 2011 19:13:30 GMT-0400 (EDT)')                                                                                                               
+    updateTime: 1315350810000
     msgType: 5                                                                                                                                                        
     mobileId: '4531001036'
 
@@ -65,7 +65,7 @@ module.exports =
     heading: 226                                                                                                                                                      
     speed: 76.428633                                                                                                                                                  
     eventCode: 23                                                                                                                                                     
-    updateTime: new Date('Sun Mar 03 2013 19:51:05 GMT-0500 (EST)')                                                                                                               
+    updateTime: 1362358265000
     msgType: 10                                                                                                                                                       
     mobileId: '4531010353'
 
@@ -77,6 +77,6 @@ module.exports =
     speed: 7.4564520000000005
     eventCode: 26
     vBatt: 12.768
-    updateTime: new Date('Mon Mar 25 2013 16:55:19 GMT-0700 (MST)')
+    updateTime: 1364255719000
     msgType: 10
     mobileId: '4531004944'
