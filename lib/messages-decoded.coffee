@@ -68,7 +68,7 @@ module.exports =
     mobileId: '4531001036'
     geo:
       coordinates: [
-        -117.278921
+        -117.2789211
         33.1311913
       ]
       type: 'Point'
