@@ -2,9 +2,7 @@
 
 module.exports =
   # #### Message type 2
-  '2':
-    latitude: 33.5949818
-    longitude: -112.2298038                                                                                                                                           
+  '2':                                                                                                                                          
     altitude: 1086.4829744                                                                                                                                            
     speed: 0                                                                                                                                                          
     heading: 0                                                                                                                                                        
@@ -12,14 +10,19 @@ module.exports =
     rssi: -95                                                                                                                                                         
     hdop: 0.8                                                                                                                                                         
     updateTime: 1358022913000
+    seqNumber: 1729
     msgType: 2                                                                                                                                                        
     mobileId: '4531003346'
+    geo:
+      coordinates: [
+        -112.2298038
+        33.5949818
+      ]
+      type: 'Point'
     eventCode: 30
 
   # #### Message type 5 / subtype 131
-  '5/131':
-    latitude: 0
-    longitude: 0                                                                                                                                                      
+  '5/131':                                                                                                                                                     
     altitude: 0                                                                                                                                                      
     speed: 0                                                                                                                                                        
     heading: 0                                                                                                                                                        
@@ -32,13 +35,18 @@ module.exports =
     params: '0,1,4,7,8,11,12'                                                                                                                                         
     indctrs: '0(000000000011),1(11111111111)\u0000'                                                                                                                   
     updateTime: 51000
+    seqNumber: 1
     msgType: 5                                                                                                                                                        
     mobileId: '4531001082'
+    geo:
+      coordinates: [
+        0
+        0
+      ]
+      type: 'Point'
 
   # #### Message type 5 / subtype 132
-  '5/132':
-    latitude: 33.1311913
-    longitude: -117.2789211                                                                                                                                          
+  '5/132':                                                                                                                                       
     altitude: 142.9133904                                                                                                                                             
     speed: 0.11184681460272011                                                                                                                                        
     heading: 185                                                                                                                                                      
@@ -55,28 +63,45 @@ module.exports =
     dtcCode6: 'U0100'                                                                                                                                                 
     dtcCode7: 'P0101'                                                                                                                                                 
     updateTime: 1315350810000
+    seqNumber: 5
     msgType: 5                                                                                                                                                        
     mobileId: '4531001036'
+    geo:
+      coordinates: [
+        -117.278921
+        33.1311913
+      ]
+      type: 'Point'
 
   # #### Message type 10
-  '10':
-    latitude: 33.6080481                                                                                                                                              
-    longitude: -112.2468621                                                                                                                                           
+  '10':                                                                                                                                                                                                                                                                                         
     heading: 226                                                                                                                                                      
     speed: 76.428633                                                                                                                                                  
     eventCode: 23                                                                                                                                                     
     updateTime: 1362358265000
-    msgType: 10                                                                                                                                                       
+    seqNumber: 1152
+    msgType: 10
+    geo:
+      coordinates: [
+        -112.2468621
+        33.6080481
+      ]
+      type: 'Point'
     mobileId: '4531010353'
 
   # #### Message type 10 / eventType 26 (vBatt)
   '10/26':
-    latitude: 33.673709
-    longitude: -111.8883138
     heading: 0
     speed: 7.4564520000000005
     eventCode: 26
     vBatt: 12.768
     updateTime: 1364255719000
+    seqNumber: 77
     msgType: 10
     mobileId: '4531004944'
+    geo:
+      coordinates: [
+        -111.8883138
+        33.673709
+      ]
+      type: 'Point'
