@@ -1,7 +1,7 @@
 {
   "name": "cowlamp",
   "description": "Send/receive fake CalAmp messages",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "http://github.com/nordus/cowlamp",
   "repository": "git://github.com/nordus/cowlamp.git",
   "author": "Daniel Johnson <daniel@easierbycode.com> (http://easierbycode.com)",
