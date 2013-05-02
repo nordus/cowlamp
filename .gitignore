@@ -5,3 +5,4 @@ build
 *.node
 components
 .idea
+.c9revisions
