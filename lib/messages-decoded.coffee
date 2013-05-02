@@ -88,6 +88,20 @@ module.exports =
       ]
       type: 'Point'
     mobileId: '4531010353'
+    
+  # #### Message type 10 / eventType 25 (idleMins)
+  '10/25':
+    heading: 86
+    speed: 0.621371
+    eventCode: 25
+    idleMins: 2.3833333333333333
+    updateTime: 1367507149000
+    seqNumber: 289
+    msgType: 10
+    mobileId: "4531010353"
+    geo:
+      coordinates: [-112.2297486, 33.5950361]
+      type: "Point"
 
   # #### Message type 10 / eventType 26 (vBatt)
   '10/26':
