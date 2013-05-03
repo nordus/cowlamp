@@ -12,7 +12,7 @@ module.exports =
     updateTime: 1358022913000
     seqNumber: 1729
     msgType: 2                                                                                                                                                        
-    mobileId: 4531003346
+    mobileId: '4531003346'
     geo:
       coordinates: [
         -112.2298038
@@ -37,7 +37,7 @@ module.exports =
     updateTime: 51000
     seqNumber: 1
     msgType: 5                                                                                                                                                        
-    mobileId: 4531001082
+    mobileId: '4531001082'
     geo:
       coordinates: [
         0
@@ -65,7 +65,7 @@ module.exports =
     updateTime: 1315350810000
     seqNumber: 5
     msgType: 5                                                                                                                                                        
-    mobileId: 4531001036
+    mobileId: '4531001036'
     geo:
       coordinates: [
         -117.2789211
@@ -87,7 +87,7 @@ module.exports =
         33.6080481
       ]
       type: 'Point'
-    mobileId: 4531010353
+    mobileId: '4531010353'
     
   # #### Message type 10 / eventType 25 (idleMins)
   '10/25':
@@ -97,7 +97,7 @@ module.exports =
     updateTime: 1367507149000
     seqNumber: 289
     msgType: 10
-    mobileId: 4531010353
+    mobileId: '4531010353'
     geo:
       coordinates: [-112.2297486, 33.5950361]
       type: "Point"
@@ -111,7 +111,7 @@ module.exports =
     updateTime: 1364255719000
     seqNumber: 77
     msgType: 10
-    mobileId: 4531004944
+    mobileId: '4531004944'
     geo:
       coordinates: [
         -111.8883138
