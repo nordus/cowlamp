@@ -54,14 +54,8 @@ module.exports =
     rssi: -93                                                                                                                                                         
     hdop: 1                                                                                                                                                           
     appMessageType: 132                                                                                                                                              
-    dtcCount: 7                                                                                                                                                       
-    dtcCode1: 'P0100'                                                                                                                                                 
-    dtcCode2: 'P0200'                                                                                                                                                 
-    dtcCode3: 'P0300'                                                                                                                                                 
-    dtcCode4: 'C0300'                                                                                                                                                 
-    dtcCode5: 'B0200'                                                                                                                                                 
-    dtcCode6: 'U0100'                                                                                                                                                 
-    dtcCode7: 'P0101'                                                                                                                                                 
+    dtcCount: 7
+    dtcCodes: 'P0100, P0200, P0300, C0300, B0200, U0100, P0101'
     updateTime: 1315350810000
     seqNumber: 5
     msgType: 5                                                                                                                                                        
